@@ -1,0 +1,156 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');*/
+@font-face {
+    font-family: Raleway;
+    src: url(../fonts/Raleway/Raleway-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: OpenSans;
+    src: url(../fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+body{
+    font-family: "OpenSans";
+    font-weight: 400;
+}
+.links{
+    border: none;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.links a{
+    margin: 10px;
+    text-decoration: none;
+}
+.heading{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px
+}
+#illustrations{
+    height: 500px;
+}
+.body{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+    align-items: center;
+}
+.bodyText form{
+    display: flex;
+    gap: 1em;
+}
+.bodyText  input[type='text']{
+    padding: 10px;
+    width: 200px;
+    border: 1px solid;
+}
+.bodyText  button{
+    padding: 10px;
+    width: 200px;
+    border: 1px solid;
+    color: white;
+    background-color: hsl(224, 93%, 58%);
+}
+.bodyText  button:active{
+    background-color: hsl(224, 100%, 65%);
+}
+#semiheading{
+    font-size: 30px;
+    font-family: "Raleway";
+    font-weight: 700;
+}
+.bodyTextContainer{
+    background-color: hsl(240, 75%, 98%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.aside img{
+    width: fit-content;
+}
+.bodyText2{
+    padding: 100px;
+}
+.bodyText2 a{
+    color: hsl(170, 45%, 43%);
+}
+.qoute{
+    margin: 20px;
+    background-color: white;
+    font-size: 12px;
+    border: none;
+    border-radius: 10px;
+    padding: 25px;
+    width: fit-content;
+}
+.details img{
+    height: 50px;
+    border-radius: 50px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.details #name{
+    font-weight: bold;
+    font-size: 15px;
+}
+.details p:not(#name){
+    font-size: 10px;
+}
+.mandetails{
+    line-height: 7px;
+}
+.bodyContainer{
+    background-color: hsl(238, 22%, 44%);
+    color: white;
+    padding: 20px;
+    font-size: 15px;
+}
+.bodyContainer{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 100px;
+}
+.bodyContainer input[type = "text"]{
+    padding: 10px;
+    width: 300px;
+    border: 1px solid;
+}
+.bodyContainer button{
+    padding: 10px;
+    width: 200px;
+    border: 1px solid black;
+    color: white;
+    background-color: hsl(224, 93%, 58%);
+}
+.bodyContainer button{
+    background-color: hsl(224, 100%, 65%);
+}
+.bodyContainer form{
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.bodyContainer2{
+    color: white;
+    background-color: hsl(243, 87%, 12%);
+    padding: 40px;
+}
+.bodyText4{
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+}
+#contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.card p:active{
+    color:hsl(224, 100%, 65%);
+}
